@@ -101,7 +101,7 @@ export const logout = () => {
 };
 
 // Setup config/headers and token
-export const tokenCOnfig = (getState) => {
+export const tokenConfig = (getState) => {
 	//Get token from local storage
 	const token = getState().auth.token;
 
